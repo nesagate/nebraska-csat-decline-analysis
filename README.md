@@ -62,17 +62,17 @@ Key Finding: Contrary to a potential assumption, long wait times are not the pri
 
 
 # Recommendations
-*	 Reduce Chatbot dependency in Nebraska: Shift more calls to human agents. Re-train chatbot decision trees to escalate quicker when CSAT is trending low.
+*	 **Reduce Chatbot dependency in Nebraska:** Shift more calls to human agents. Re-train chatbot decision trees to escalate quicker when CSAT is trending low.
 
-*	Prioritize Billing Question training for agents: Deploy specialized billing issue teams to handle Nebraska traffic and reduce pain points faster.
+*	**Prioritize Billing Question training for agents:** Deploy specialized billing issue teams to handle Nebraska traffic and reduce pain points faster.
 
-*	Reassign Nebraska calls away from low-performing centers: Route fewer calls to Baltimore and LA. Test rerouting to higher-CSAT centers (Denver/CO) to observe improvements.
+*	**Reassign Nebraska calls away from low-performing centers:** Route fewer calls to Baltimore and LA. Test rerouting to higher-CSAT centers (Denver/CO) to observe improvements.
 
-*	Investigate call handling quality during long calls: Use call recordings and QA scoring to assess what’s going wrong in lengthy Nebraska calls.
+*	**Investigate call handling quality during long calls:** Use call recordings and QA scoring to assess what’s going wrong in lengthy Nebraska calls.
 
-*	Sentiment-triggered escalation paths: Design workflows that detect rising customer frustration and automatically trigger escalation or supervisor intervention.
+*	**Sentiment-triggered escalation paths:** Design workflows that detect rising customer frustration and automatically trigger escalation or supervisor intervention.
 
-*	Investigate Staffing and Process Optimization: Analyze failures in staffing and processes on critical dates and focus on improving workflows on weekdays where difficulties are most prevalent.
+*	**Investigate Staffing and Process Optimization:** Analyze failures in staffing and processes on critical dates and focus on improving workflows on weekdays where difficulties are most prevalent.
 
 
 
@@ -81,15 +81,15 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 Assumption: Missing CSAT values were excluded from analysis due to randomness and lack of patterns.
 Assumption: All call timestamps were in local time zones; no time zone normalization was applied.
 
-Assumption: SLA Terminology:
-o	Within SLA = Response time met target.
-o	Above SLA = Response time exceeded target (slow response).
-o	Below SLA = Interpreted as “exceptionally fast response,” faster than SLA requirement.
+* **Assumption: SLA Terminology:**
+  - Within SLA = Response time met target.
+  - Above SLA = Response time exceeded target (slow response).
+  -	Below SLA = Interpreted as “exceptionally fast response,” faster than SLA requirement.
 We assume “Below SLA” to be a positive performance indicator and grouped it under “On Time.”
 No metadata on SLA time limits was provided, so this classification is based on typical industry interpretations.
 
-●	Caveat: Out of 32,941 records, 20,670 are missing CSAT scores (~63%), which limits the strength of insights. Analysis focused on the remaining 12,271 rows.
-●	Caveat: Agent performance was evaluated only on CSAT and not on internal QA audits.
+* **Caveat:** Out of 32,941 records, 20,670 are missing CSAT scores (~63%), which limits the strength of insights. Analysis focused on the remaining 12,271 rows.
+* **Caveat:** Agent performance was evaluated only on CSAT and not on internal QA audits.
 
 
 
