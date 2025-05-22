@@ -78,8 +78,10 @@ Key Finding: Contrary to a potential assumption, long wait times are not the pri
 
 # Assumptions and Caveats
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
-Assumption: Missing CSAT values were excluded from analysis due to randomness and lack of patterns.
-Assumption: All call timestamps were in local time zones; no time zone normalization was applied.
+
+* **Assumption:** Missing CSAT values were excluded from analysis due to randomness and lack of patterns.
+  
+* **Assumption:** All call timestamps were in local time zones; no time zone normalization was applied.
 
 * **Assumption: SLA Terminology:**
   - Within SLA = Response time met target.
