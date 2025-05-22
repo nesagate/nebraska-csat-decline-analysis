@@ -1,0 +1,91 @@
+
+
+# Project Background
+ConnectX is a national telecom provider offering internet, mobile, and TV services. With multiple call centers across the U.S., they receive thousands of support calls each day.
+Lately, the leadership team raised concerns about declining and inconsistent CSAT (Customer Satisfaction) scores and a noticeable increase in negative customer feedback.  As a data analyst embedded within the operations team, my role is to deliver actionable insights to help leadership make data-informed decisions
+This project conducts a deep analysis on a one-month worth of call center performance data to identify problem areas, optimize operations, and recommend strategies to enhance both service quality and customer satisfaction.
+Out of a total of 32,941 call records, only 12,271 entries included valid Customer Satisfaction (CSAT) scores, while 20,670 records lacked CSAT data.
+To maintain analytical integrity, CSAT-specific insights are based exclusively on the 12,271 scored records, while operational trends (like call volume, response time, and duration) where applicable.
+
+Insights and recommendations are provided on the following key areas:
+- **CSAT scores by state** 
+- **CSAT vs reason for call**
+- **CSAT vs channel**
+- **CSAT vs response time**
+- **Call duration patterns (cross-check for hidden lag)**
+  
+The excel formulas and steps used to clean, organize and prepare data for the dashboard can be found here [link].
+
+An interactive Power BI dashboard can be downloaded here [link]
+
+# Data Structure 
+ConnectX database structure as seen below with a total of 12,227 records
+
+
+# Executive Summary
+From the analysis of 12,227 survey responses, Nebraska emerged as the state with the lowest CSAT scores (average score: 4.88 out of 10) across the U.S. 
+
+1.	High Billing Call Volume & Low Satisfaction: Nebraska has a significantly higher percentage of billing-related calls (76.8%, 5.5 points above the national average). Importantly, Customer Satisfaction (CSAT) scores are lower than the national average across all call reasons, indicating a systemic issue beyond just billing volume.
+
+2.	Negative Customer Sentiment: Feedback from Nebraska customers is overwhelmingly negative (58.5% Negative/Very Negative vs. 51.8% nationally). Conversely, very positive sentiment is significantly lower than the national average, suggesting customers begin interactions with negative feelings that are exacerbated by current processes.
+
+3.	Ineffective Routing to Baltimore: A large portion of Nebraska calls are routed to support centers in Baltimore and Los Angeles. The CSAT for Nebraska customers handled by the Baltimore center is significantly lower (4) compared to the national average (6), strongly suggesting that Baltimore support is a major contributor to Nebraska's low customer satisfaction.
+Overall Implications:
+
+Nebraska faces a customer support crisis characterized by frequent, frustrating billing issues, a prevailing negative sentiment that is not being effectively addressed, and a detrimental mismatch between Nebraska customers and the Baltimore call center. These interconnected factors are significantly undermining customer satisfaction in the state.
+
+# Insights Deep Dive
+1.	Dominance of Billing Questions: A significantly higher percentage of calls in Nebraska (76.8%) are billing-related compared to the national average (71.3%), and CSAT scores are lower for all call reasons.
+
+2.	Ineffective Support Channels: Over-reliance on chatbots, which perform poorly, and potentially underutilized or undertrained call center agents are hindering positive outcomes.
+
+3.	Negative Customer Sentiment: Nebraska customers express more negative feedback (58.5%) and less very positive feedback compared to the national average, resulting in lower CSAT scores for negative feedback.
+
+4.	Problematic Call Center Routing: Nebraska’s customers are mostly routed to Baltimore and Los Angeles call centers — both perform worse for them than they do in all state. This means Baltimore appears to be a key area of concern: with Nebraska (4) compared to the National average (6), representing a significant two-point decline.
+5.	CSAT by Day of Week Trend: Nebraska consistently underperforms in customer satisfaction on Tuesday, Wednesday, Friday and Saturday, with CSAT dropping as low as 3, compared to a national average of 6.
+Spikes in low scores align with specific dates—notably  2nd, 13th, 21st  and 24th—likely tied to billing cycles, system delays, or service backlogs.
+6.	Poor Call Execution: Nebraska has more Very Long calls (41.46% and average CSAT of 4) than all state average (37.19% and average CSAT of 6) and worse satisfaction during those calls as well. This means: duration alone isn't the issue. The rest of the country handles long calls and keeps people happy. Nebraska fails.
+While Nebraska has a higher proportion of longer calls, the core issue isn't call length but rather the quality of interactions during those calls.
+Key Finding: Contrary to a potential assumption, long wait times are not the primary driver of low CSAT in Nebraska. In fact, Nebraska has a slightly lower share of "Above SLA" wait times than the national average.
+
+
+# Recommendations
+1.	Reduce Chatbot dependency in Nebraska: Shift more calls to human agents. Re-train chatbot decision trees to escalate quicker when CSAT is trending low.
+
+2.	Prioritize Billing Question training for agents: Deploy specialized billing issue teams to handle Nebraska traffic and reduce pain points faster.
+
+
+3.	Reassign Nebraska calls away from low-performing centers: Route fewer calls to Baltimore and LA. Test rerouting to higher-CSAT centers (Denver/CO) to observe improvements.
+
+4.	Investigate call handling quality during long calls: Use call recordings and QA scoring to assess what’s going wrong in lengthy Nebraska calls.
+
+5.	Sentiment-triggered escalation paths: Design workflows that detect rising customer frustration and automatically trigger escalation or supervisor intervention.
+
+
+6.	Investigate Staffing and Process Optimization: Analyze failures in staffing and processes on critical dates and focus on improving workflows on weekdays where difficulties are most prevalent.
+
+# Assumptions and Caveats
+Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+Assumption: Missing CSAT values were excluded from analysis due to randomness and lack of patterns.
+Assumption: All call timestamps were in local time zones; no time zone normalization was applied.
+
+Assumption: SLA Terminology:
+o	Within SLA = Response time met target.
+o	Above SLA = Response time exceeded target (slow response).
+o	Below SLA = Interpreted as “exceptionally fast response,” faster than SLA requirement.
+We assume “Below SLA” to be a positive performance indicator and grouped it under “On Time.”
+No metadata on SLA time limits was provided, so this classification is based on typical industry interpretations.
+
+●	Caveat: Out of 32,941 records, 20,670 are missing CSAT scores (~63%), which limits the strength of insights. Analysis focused on the remaining 12,271 rows.
+●	Caveat: Agent performance was evaluated only on CSAT and not on internal QA audits.
+
+
+
+
+
+
+
+
+
+
+
