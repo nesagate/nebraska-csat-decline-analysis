@@ -46,27 +46,27 @@ Nebraska faces a customer support crisis characterized by frequent, frustrating 
 
 
 # Insights Deep Dive
-* **Dominance of Billing Questions** 
+### Dominance of Billing Questions
   - A significantly higher percentage of calls in Nebraska (76.8%) are billing-related compared to the national average (71.3%).
   - CSAT scores in Nebraska are lower across all call reasons.
 
   
 [Visualization specific to category 1]
 
-* **Ineffective Support Channels** 
+### Ineffective Support Channels
   - Over-reliance on chatbots, which perform poorly, hinders positive outcomes.
   - Potentially underutilized or undertrained call center agents hinder positive outcomes
 
    [Visualization specific to category 1]
 
-* **Negative Customer Sentiment**
+### Negative Customer Sentiment
   - customers express more negative feedback (58.5%) compared to the national average.
   - Nebraska customers express less very positive feedback compared to the national average.
   - This results in lower CSAT scores for negative feedback in Nebraska.
 
   [Visualization specific to category 1]
 
-* **Problematic Call Center Routing**
+### Problematic Call Center Routing
   - Nebraska customers are primarily routed to call centers in Baltimore and Los Angeles.
   - These call centers exhibit lower performance for Nebraska customers compared to the average performance across all states.
   - Baltimore appears to be key areas of concern for Nebraska's customer satisfaction.
@@ -75,13 +75,13 @@ Nebraska faces a customer support crisis characterized by frequent, frustrating 
 
 [Visualization specific to category 1]
 
-* **CSAT by Day of Week Trend**
+### CSAT by Day of Week Trend
   - Nebraska consistently underperforms in customer satisfaction on Tuesday, Wednesday, Friday, and Saturday, with CSAT dropping as low as 3, compared to a national average of 6.
   - Spikes in low scores align with specific dates—notably 2nd, 13th, 21st, and 24th—likely tied to billing cycles, system delays, or service backlogs.
 
 [Visualization specific to category 1]
 
-* **Poor Call Execution**
+### Poor Call Execution
   - Nebraska has a higher percentage of very long calls (41.46% with an average CSAT of 4) compared to the national average (37.19% with an average CSAT of 6), indicating lower satisfaction during these longer calls.
   - This suggests that the duration of calls alone is not the problem, as other states handle long calls with better customer satisfaction. Nebraska's handling of long calls is failing to meet customer expectations.
   - While Nebraska experiences a higher proportion of longer calls, the fundamental issue lies in the quality of the interactions occurring during these calls, rather than just the length of the call.
@@ -116,8 +116,8 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
   - Within SLA = Response time met target.
   - Above SLA = Response time exceeded target (slow response).
   -	Below SLA = Interpreted as “exceptionally fast response,” faster than SLA requirement.
-We assume “Below SLA” to be a positive performance indicator and grouped it under “On Time.”
-No metadata on SLA time limits was provided, so this classification is based on typical industry interpretations.
+     - We assume “Below SLA” to be a positive performance indicator and grouped it under “On Time.”
+     - No metadata on SLA time limits was provided, so this classification is based on typical industry interpretations.
 
 * **Caveat:** Out of 32,941 records, 20,670 are missing CSAT scores (~63%), which limits the strength of insights. Analysis focused on the remaining 12,271 rows.
 * **Caveat:** Agent performance was evaluated only on CSAT and not on internal QA audits.
