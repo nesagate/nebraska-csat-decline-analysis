@@ -1,4 +1,13 @@
 
+##  Table of Contents
+
+1. [Project Background](#project-background)
+2. [Data Structure & Initial Checks](#data-structure-&-initial-checks)
+3. [Executive Summary](#executive-summary)
+4. [Insights Deep Dive](#insights-deep-dive)
+5. [Recommendations](#recommendations)
+6. [Assumptions and Caveats](#assumptions-and-caveats)
+
 
 # Project Background
 ConnectX is a national telecom provider offering internet, mobile, and TV services. With multiple call centers across the U.S., they receive thousands of support calls each day.
