@@ -34,7 +34,7 @@ An interactive Excel dashboard can be downloaded here ![Dashboard](Visuals/Nebra
 # Data Structure & Initial Checks 
 ConnectX database structure as seen below with a total of 12,227 records
 
-![Data Structure](visuals/Data-Structure.png)
+![Data Structure](Visuals/Data-Structure.png)
 
 
 # Executive Summary
@@ -60,7 +60,7 @@ Nebraska faces a customer support crisis characterized by frequent, frustrating 
   - CSAT scores in Nebraska are lower across all call reasons.
 
   
-[Visualization specific to category 1]
+![Visualization](Visuals/CSAT-by-call-reason.PNG)
 
 ### Ineffective Support Channels
   - Over-reliance on chatbots, which perform poorly, hinders positive outcomes.
