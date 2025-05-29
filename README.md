@@ -25,7 +25,7 @@ Insights and recommendations are provided on the following key areas:
 - **Call duration patterns (cross-check for hidden lag)**
 - **CSAT by Date Trend**
   
-The excel formulas and steps used to clean, organize and prepare data for the dashboard can be found here ![Data Cleaning Log](Documentation/ConnectX-Data-Cleaning-documentation.pdf)
+The excel formulas and steps used to clean, organize and prepare data for the dashboard can be found here ![Data Cleaning Log](Documentation/ConnectX-Data-Cleaning-Documentation.pdf)
 
 An interactive Excel dashboard can be downloaded here ![Dashboard](Visuals/Nebraska-Dashboard.PNG)
 
@@ -34,7 +34,7 @@ An interactive Excel dashboard can be downloaded here ![Dashboard](Visuals/Nebra
 # Data Structure & Initial Checks 
 ConnectX database structure as seen below with a total of 12,227 records
 
-![Data Structure](visuals/data-structure.png)
+![Data Structure](visuals/Data-Structure.png)
 
 
 # Executive Summary
