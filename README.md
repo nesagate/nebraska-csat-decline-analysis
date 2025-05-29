@@ -34,7 +34,7 @@ An interactive Power BI dashboard can be downloaded here [link]
 # Data Structure & Initial Checks 
 ConnectX database structure as seen below with a total of 12,227 records
 
-![Data Structure](images/data-structure.png)
+![Data Structure](visuals/data-structure.png)
 
 
 # Executive Summary
