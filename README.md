@@ -51,7 +51,7 @@ From the analysis of 12,227 survey responses, Nebraska emerged as the state with
 Nebraska faces a customer support crisis characterized by frequent, frustrating billing issues, a prevailing negative sentiment that is not being effectively addressed, and a detrimental mismatch between Nebraska customers and the Baltimore call center. These interconnected factors are significantly undermining customer satisfaction in the state.
 
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+![Nebraska Dashboard](images/Nebraska-Dashboard.png)
 
 
 # Insights Deep Dive
