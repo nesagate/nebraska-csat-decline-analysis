@@ -25,9 +25,9 @@ Insights and recommendations are provided on the following key areas:
 - **Call duration patterns (cross-check for hidden lag)**
 - **CSAT by Date Trend**
   
-The excel formulas and steps used to clean, organize and prepare data for the dashboard can be found here [link].
+The excel formulas and steps used to clean, organize and prepare data for the dashboard can be found here ![Data Cleaning Log](Documentation/ConnectX-Data-Cleaning-documentation.pdf)
 
-An interactive Power BI dashboard can be downloaded here [link]
+An interactive Excel dashboard can be downloaded here ![Dashboard](Visuals/Nebraska-Dashboard.PNG)
 
 
 
