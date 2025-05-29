@@ -51,7 +51,7 @@ From the analysis of 12,227 survey responses, Nebraska emerged as the state with
 Nebraska faces a customer support crisis characterized by frequent, frustrating billing issues, a prevailing negative sentiment that is not being effectively addressed, and a detrimental mismatch between Nebraska customers and the Baltimore call center. These interconnected factors are significantly undermining customer satisfaction in the state.
 
 
-![Nebraska Dashboard](images/Nebraska-Dashboard.PNG)
+![Image Alt Text](https://raw.githubusercontent.com/nesagate/nebraska-csat-decline-analysis/refs/heads/main/Visuals/Dashboard.PNG)
 
 
 # Insights Deep Dive
@@ -60,7 +60,7 @@ Nebraska faces a customer support crisis characterized by frequent, frustrating 
   - CSAT scores in Nebraska are lower across all call reasons.
 
   
-![Visualization](Visuals/CSAT-by-call-reason.PNG)
+![Visualization](Visuals/Dashboard.PNG)
 
 ### Ineffective Support Channels
   - Over-reliance on chatbots, which perform poorly, hinders positive outcomes.
