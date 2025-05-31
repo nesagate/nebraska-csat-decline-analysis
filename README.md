@@ -69,13 +69,6 @@ Nebraska faces a customer support crisis characterized by frequent, frustrating 
 
    <img src="Visuals/CSAT-by-Channel.PNG" alt="Ineffective Support Channels" width="450"/>
 
-### Negative Customer Sentiment
-  - customers express more negative feedback (58.5%) compared to the national average.
-  - Nebraska customers express less very positive feedback compared to the national average.
-  - This results in lower CSAT scores for negative feedback in Nebraska.
-
-
- ![Visualization]()
 
 ### Problematic Call Center Routing
   - Nebraska customers are primarily routed to call centers in Baltimore and Los Angeles.
@@ -91,7 +84,7 @@ Nebraska faces a customer support crisis characterized by frequent, frustrating 
   - Spikes in low scores align with specific dates—notably 2nd, 13th, 21st, and 24th—likely tied to billing cycles, system delays, or service backlogs.
 
 
-   <img src="Visuals/CSAT-by-day-of-week-trend.PNG" alt="CSAT by Day of Week Trend" width="450"/>
+   <img src="Visuals/CSAT-by-day-of-week-trend.PNG" alt="CSAT by Day of Week Trend" width="500"/>
 
 ### Poor Call Execution
   - Nebraska has a higher percentage of very long calls (41.46% with an average CSAT of 4) compared to the national average (37.19% with an average CSAT of 6), indicating lower satisfaction during these longer calls.
@@ -101,6 +94,13 @@ Nebraska faces a customer support crisis characterized by frequent, frustrating 
 
  <img src="Visuals/CSAT-by-call-duration.PNG" alt="Poor Call Execution" width="450"/>
 
+
+
+### Negative Customer Sentiment
+  - customers express more negative feedback (58.5%) compared to the national average.
+  - Nebraska customers express less very positive feedback compared to the national average.
+  - This results in lower CSAT scores for negative feedback in Nebraska.
+    
 
 # Recommendations
 *	 **Reduce Chatbot dependency in Nebraska:** Shift more calls to human agents. Re-train chatbot decision trees to escalate quicker when CSAT is trending low.
