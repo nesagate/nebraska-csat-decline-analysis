@@ -2,7 +2,7 @@
 ##  Table of Contents
 
 1. [Project Background](#project-background)
-2. [Data Structure & Initial Checks](#data-structure-&-initial-checks)
+2. [Data Structure and Initial Checks](#data-structure-and-initial-checks)
 3. [Executive Summary](#executive-summary)
 4. [Insights Deep Dive](#insights-deep-dive)
 5. [Recommendations](#recommendations)
@@ -31,7 +31,7 @@ An interactive Excel dashboard can be downloaded here [Dashboard](Visuals/Nebras
 
 
 
-# Data Structure & Initial Checks 
+# Data Structure and Initial Checks 
 ConnectX database structure as seen below with a total of 12,227 records
 
 
