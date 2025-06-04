@@ -100,7 +100,9 @@ Nebraska faces a customer support crisis characterized by frequent, frustrating 
   - customers express more negative feedback (58.5%) compared to the national average.
   - Nebraska customers express less very positive feedback compared to the national average.
   - This results in lower CSAT scores for negative feedback in Nebraska.
-    
+
+<img src="Visuals/Sentiment-table.PNG" alt="Negative Customer Sentiment" width="450"/>
+
 
 # Recommendations
 *	 **Reduce Chatbot dependency in Nebraska:** Shift more calls to human agents. Re-train chatbot decision trees to escalate quicker when CSAT is trending low.
