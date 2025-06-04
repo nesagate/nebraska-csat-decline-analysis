@@ -134,7 +134,8 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 * **Caveat:** Out of 32,941 records, 20,670 are missing CSAT scores (~63%), which limits the strength of insights. Analysis focused on the remaining 12,271 rows.
 * **Caveat:** Agent performance was evaluated only on CSAT and not on internal QA audits.
 
-
+---
+ [Back to Table of Contents](#-table-of-contents)
 
 
 
