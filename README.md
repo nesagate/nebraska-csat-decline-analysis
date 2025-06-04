@@ -27,6 +27,9 @@ Insights and recommendations are provided on the following key areas:
   
 The excel formulas and steps used to clean, organize and prepare data for the dashboard can be found here [Data Cleaning Log](Documentation/ConnectX-Data-Cleaning-Documentation.pdf)
 
+Targeted Excel analyses used to answer specific business questions are located here [Business Questions Analysis](Documentation/ConnectX-Data-Cleaning-Documentation.pdf)
+
+
 An interactive Excel dashboard can be downloaded here [Dashboard](Visuals/Nebraska-Dashboard.PNG)
 
 
